@@ -1,1 +1,7 @@
 # Student-performance-research-data
+# The impact of social media on student academic performance in higher education in Bangui, Central African Republic
+# ABSTRACT
+This study explores the relationship between social media usage and student performance in a Bangui public university in the Central African Republic (CAR). As social media platforms become increasingly prevalent among students, comprehending their impact on academic performance is crucial for educational institutions and policymakers. Utilizing a mixed-methods approach, including quantitative and qualitative data collection, the research administers a survey questionnaire to a diverse undergraduate student sample to investigate their social media usage patterns, academic performance, and perceptions of its impact on learning. Focus group discussions are conducted with selected students to delve deeper into their experiences and attitudes towards social media usage and its connection to academic performance. The findings shed light on significant connections between academic year and age, self-efficacy and social media engagement, and time spent on social media and current GPA. The study contributes to understanding factors influencing academic achievement in the digital age, highlighting potential benefits and challenges associated with social media usage and paving the way for tailored strategies to enhance student outcomes.
+
+Keywords
+Social media, student performance, public university, Central African Republic, academic achievement.
