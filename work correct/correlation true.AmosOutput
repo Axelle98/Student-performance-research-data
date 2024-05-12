@@ -1,0 +1,2749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>correlation true.amw</title>
+    <style>TABLE {
+	BORDER-TOP: thin solid; BORDER-RIGHT: thin solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: thin solid; BORDER-LEFT: thin solid
+}
+.PLAINTABLE {
+	BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none
+}
+THEAD {
+	
+}
+TD {
+	PADDING-LEFT: 7pt; PADDING-RIGHT: 7pt
+}
+.nopad {
+	PADDING-LEFT: 0.1cm; PADDING-RIGHT: 0.1cm
+}
+.B1 {
+	BORDER-RIGHT: thin solid; BORDER-BOTTOM: thin solid
+}
+.B2 {
+	BORDER-BOTTOM: thin solid
+}
+.B3 {
+	BORDER-RIGHT: thin solid
+}
+
+</style>
+  </head>
+  <body>
+    <div nodecaption="correlation true.amw" datetime1="2023-9-3-19-45-12-853" datetime2="2023-9-3-19-45-12-853" datetime3="2023-9-3-19-45-12-853" dataset="data set name" filename="file name" appname="D:\correlation true.amw" caption="D:\correlation true.amw" helpfile="AmosReference" date="dimanche 3 septembre 2023" time="22:12:14" ntype="top" version="10" language="English" samplenumber="3,14" decimals="3">
+      <h1 tabindex="1">D:\correlation true.amw</h1>
+      <div ntype="globalsummary" nodecaption="Analysis Summary" caption="Analysis Summary" tabindex="1">
+        <div>
+          <h2 tabindex="1">Analysis Summary</h2>
+        </div>
+        <div nodecaption="Date and Time" caption="Date and Time" tabindex="1">
+          <div>
+            <h2 tabindex="1">Date and Time</h2>
+          </div>
+          <div tabindex="1">Date: dimanche 3 septembre 2023</div>
+          <div tabindex="1">Time: 22:12:14</div>
+        </div>
+        <div nodecaption="Title" caption="Title">
+          <div>
+            <h2 tabindex="1" h="348">Title</h2>
+          </div>
+          <div tabindex="1">correlation true: dimanche 3 septembre 2023   22:12</div>
+        </div>
+      </div>
+      <div ntype="groups" nodecaption="Groups" caption="Groups">
+        <div>
+          <h2 tabindex="1">Groups</h2>
+        </div>
+        <div ntype="group" nodecaption="Group number 1" caption="Group number 1">
+          <div>
+            <h2 tabindex="1">Group number 1 (Group number 1)</h2>
+          </div>
+          <div ntype="groupnotes" nodecaption="Notes for Group" caption="Notes for Group">
+            <div>
+              <h2 tabindex="1" h="860">Notes for Group (Group number 1)</h2>
+            </div>
+            <div h="610" tabindex="1">The model is recursive.</div>
+            <div tabindex="1">Sample size = 181</div>
+          </div>
+          <div ntype="variablesummary" nodecaption="Variable Summary" caption="Variable Summary">
+            <div>
+              <h2 tabindex="1">Variable Summary (Group number 1)</h2>
+            </div>
+            <div nodecaption="Variable list" caption="Your model contains the following variables">
+              <div>
+                <h2 tabindex="1" h="763">Your model contains the following variables (Group number 1)</h2>
+              </div>
+              <div tabindex="1" style="margin-top: 10pt">Observed, endogenous variables</div>
+              <div vname="availabilityofdigitalresources" style="margin-top: 10pt; margin-left: .5in" tabindex="1">availabilityofdigitalresources</div>
+              <div vname="academicperformance" style="margin-left: .5in" tabindex="1">academicperformance</div>
+              <div tabindex="1" style="margin-top: 10pt">Observed, exogenous variables</div>
+              <div vname="Academicyear" style="margin-top: 10pt; margin-left: .5in" tabindex="1">Academicyear</div>
+              <div vname="Age" style="margin-left: .5in" tabindex="1">Age</div>
+              <div vname="selfefficacy" style="margin-left: .5in" tabindex="1">selfefficacy</div>
+              <div vname="timespentonsocialmediadaily" style="margin-left: .5in" tabindex="1">timespentonsocialmediadaily</div>
+              <div vname="currentGPA" style="margin-left: .5in" tabindex="1">currentGPA</div>
+              <div vname="selfregulation" style="margin-left: .5in" tabindex="1">selfregulation</div>
+              <div tabindex="1" style="margin-top: 10pt">Unobserved, exogenous variables</div>
+              <div vname="e8" style="margin-top: 10pt; margin-left: .5in" tabindex="1">e8</div>
+              <div vname="e5" style="margin-left: .5in" tabindex="1">e5</div>
+            </div>
+            <div nodecaption="Variable counts" tabindex="1">
+              <h2 tabindex="1">Variable counts (Group number 1)</h2>
+              <table summary="Variable counts (Group number 1)" tabindex="1" class="PLAINTABLE">
+                <colgroup>
+                  <col />
+                  <col />
+                </colgroup>
+                <tbody>
+                  <tr align="right" RowID="">
+                    <th scope="row" align="left">Number of variables in your model:</th>
+                    <td>10</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th scope="row" align="left">Number of observed variables:</th>
+                    <td>8</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th scope="row" align="left">Number of unobserved variables:</th>
+                    <td>2</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th scope="row" align="left">Number of exogenous variables:</th>
+                    <td>8</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th scope="row" align="left">Number of endogenous variables:</th>
+                    <td>2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div nodecaption="Parameter Summary" tabindex="1" ntype="parametersummary">
+            <h2 tabindex="1" h="753">Parameter Summary (Group number 1)</h2>
+            <table summary="Parameter Summary (Group number 1)" tabindex="1">
+              <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+              </colgroup>
+              <thead>
+                <tr align="right" RowID="">
+                  <td class="B1">
+                  </td>
+                  <th class="B2" scope="col">Weights</th>
+                  <th class="B2" scope="col">Covariances</th>
+                  <th class="B2" scope="col">Variances</th>
+                  <th class="B2" scope="col">Means</th>
+                  <th class="B2" scope="col">Intercepts</th>
+                  <th class="B2" scope="col">Total</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">Fixed</th>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>4</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">Labeled</th>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">Unlabeled</th>
+                  <td>7</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>6</td>
+                  <td>2</td>
+                  <td>30</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">Total</th>
+                  <td>9</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>34</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div ntype="models" nodecaption="Models" caption="Models">
+        <div>
+          <h2 tabindex="1">Models</h2>
+        </div>
+        <div ntype="model" nodecaption="Default model" caption="Default model">
+          <div>
+            <h2 tabindex="1">Default model (Default model)</h2>
+          </div>
+          <div ntype="modelnotes" nodecaption="Notes for Model" caption="Notes for Model">
+            <div>
+              <h2 tabindex="1" h="879">Notes for Model (Default model)</h2>
+            </div>
+            <div nodecaption="Computation of degrees of freedom" tabindex="1">
+              <h2 tabindex="1" h="690">Computation of degrees of freedom (Default model)</h2>
+              <table summary="Computation of degrees of freedom (Default model)" tabindex="1" class="PLAINTABLE">
+                <colgroup>
+                  <col />
+                  <col />
+                </colgroup>
+                <tbody>
+                  <tr align="right" RowID="">
+                    <th scope="row">Number of distinct sample moments:</th>
+                    <td>44</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th scope="row">Number of distinct parameters to be estimated:</th>
+                    <td>30</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th scope="row">Degrees of freedom (44 - 30):</th>
+                    <td>14</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div ntype="result" nodecaption="Result" caption="Result">
+              <div>
+                <h2 tabindex="1">Result (Default model)</h2>
+              </div>
+              <div h="818" tabindex="1">Minimum was achieved</div>
+              <div> <span tabindex="1">Chi-square = <span h="-1" x="30,7860101049405">30,786</span></span></div>
+              <div tabindex="1">Degrees of freedom = 14</div>
+              <div h="798"> <span h="-1" tabindex="1">Probability level = <span h="-1" x="0,00593865136915063">,006</span></span></div>
+            </div>
+          </div>
+          <div ntype="group" nodecaption="Group number 1" caption="Group number 1">
+            <div>
+              <h2 tabindex="1">Group number 1 (Group number 1 -  Default model)</h2>
+            </div>
+            <div ntype="estimates" nodecaption="Estimates" caption="Estimates">
+              <div>
+                <h2 tabindex="1">Estimates (Group number 1 -  Default model)</h2>
+              </div>
+              <div ntype="scalars" nodecaption="Scalars" caption="Scalar Estimates">
+                <div>
+                  <h2 tabindex="1">Scalar Estimates (Group number 1 -  Default model)</h2>
+                </div>
+                <h2 tabindex="1" h="806">Maximum Likelihood Estimates</h2>
+                <div nodecaption="Regression Weights:" tabindex="1">
+                  <h2 tabindex="1" h="569">Regression Weights: (Group number 1 -  Default model)</h2>
+                  <table summary="Regression Weights: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9000">Estimate</th>
+                        <th class="B2" scope="col" colhelp="9001">S.E.</th>
+                        <th class="B2" scope="col" colhelp="9002">C.R.</th>
+                        <th class="B2" scope="col" colhelp="9003">P</th>
+                        <th align="left" class="B2" scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="availabilityofdigitalresources" class="nopad">availabilityofdigitalresources</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="Age" class="B3">Age</td>
+                        <td x="0,0465287849537406">,047</td>
+                        <td x="0,0508950048782697">,051</td>
+                        <td x="0,914211228882439">,914</td>
+                        <td x="0,360605864990029">,361</td>
+                        <td align="left">par_8</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="availabilityofdigitalresources" class="nopad">availabilityofdigitalresources</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="Academicyear" class="B3">Academicyear</td>
+                        <td x="0,0477529454903257">,048</td>
+                        <td x="0,154243668220706">,154</td>
+                        <td x="0,309594202738983">,310</td>
+                        <td x="0,756869565384802">,757</td>
+                        <td align="left">par_9</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="selfefficacy" class="B3">selfefficacy</td>
+                        <td nowrap="" x="-0,0143701866756754">-,014</td>
+                        <td x="0,0338790330853902">,034</td>
+                        <td nowrap="" x="-0,424161653003973">-,424</td>
+                        <td x="0,671447924883753">,671</td>
+                        <td align="left">par_10</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="currentGPA" class="B3">currentGPA</td>
+                        <td x="1,25969183180918">1,260</td>
+                        <td x="0,0524985913322961">,052</td>
+                        <td x="23,9947739518534">23,995</td>
+                        <td>***</td>
+                        <td align="left">par_11</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="availabilityofdigitalresources" class="B3">availabilityofdigitalresources</td>
+                        <td x="0,0478697017798458">,048</td>
+                        <td x="0,023945341861555">,024</td>
+                        <td x="1,99912375678804">1,999</td>
+                        <td x="0,0455949652772784">,046</td>
+                        <td align="left">par_12</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td x="0,00409425176874146">,004</td>
+                        <td x="0,0107346166049004">,011</td>
+                        <td x="0,381406427396056">,381</td>
+                        <td x="0,70290169245732">,703</td>
+                        <td align="left">par_13</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="timespentonsocialmediadaily" class="B3">timespentonsocialmediadaily</td>
+                        <td nowrap="" x="-0,0149841889304078">-,015</td>
+                        <td x="0,0145179054104955">,015</td>
+                        <td nowrap="" x="-1,03211782324847">-1,032</td>
+                        <td x="0,302016925313157">,302</td>
+                        <td align="left">par_14</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Standardized Regression Weights:" tabindex="1">
+                  <h2 tabindex="1" h="813">Standardized Regression Weights: (Group number 1 -  Default model)</h2>
+                  <table summary="Standardized Regression Weights: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9010">Estimate</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="availabilityofdigitalresources" class="nopad">availabilityofdigitalresources</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="Age" class="B3">Age</td>
+                        <td x="0,0966746476555881">,097</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="availabilityofdigitalresources" class="nopad">availabilityofdigitalresources</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="Academicyear" class="B3">Academicyear</td>
+                        <td x="0,0327385066820284">,033</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="selfefficacy" class="B3">selfefficacy</td>
+                        <td nowrap="" x="-0,0154905727940974">-,015</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="currentGPA" class="B3">currentGPA</td>
+                        <td x="0,879823798317707">,880</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="availabilityofdigitalresources" class="B3">availabilityofdigitalresources</td>
+                        <td x="0,0706142281011061">,071</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td x="0,0135816286123397">,014</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="academicperformance" class="nopad">academicperformance</td>
+                        <td align="left" class="nopad" nowrap="">&lt;---</td>
+                        <td align="left" vname="timespentonsocialmediadaily" class="B3">timespentonsocialmediadaily</td>
+                        <td nowrap="" x="-0,0376759543298444">-,038</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Means:" tabindex="1">
+                  <h2 tabindex="1" h="571">Means: (Group number 1 -  Default model)</h2>
+                  <table summary="Means: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9020">Estimate</th>
+                        <th class="B2" scope="col" colhelp="9021">S.E.</th>
+                        <th class="B2" scope="col" colhelp="9022">C.R.</th>
+                        <th class="B2" scope="col" colhelp="9023">P</th>
+                        <th align="left" class="B2" scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="Age" class="nopad" scope="row">Age</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="22,2888888888889">22,289</td>
+                        <td x="0,184177336903874">,184</td>
+                        <td x="121,018629455599">121,019</td>
+                        <td>***</td>
+                        <td align="left">par_15</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="Academicyear" class="nopad" scope="row">Academicyear</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="2,16666666666667">2,167</td>
+                        <td x="0,0607720664040996">,061</td>
+                        <td x="35,652344816771">35,652</td>
+                        <td>***</td>
+                        <td align="left">par_16</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="timespentonsocialmediadaily" class="nopad" scope="row">timespentonsocialmediadaily</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="3,18888888888889">3,189</td>
+                        <td x="0,151093168970327">,151</td>
+                        <td x="21,1054471265684">21,105</td>
+                        <td>***</td>
+                        <td align="left">par_17</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="selfregulation" class="nopad" scope="row">selfregulation</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="6,33888888888889">6,339</td>
+                        <td x="0,1993384668821">,199</td>
+                        <td x="31,7996269763531">31,800</td>
+                        <td>***</td>
+                        <td align="left">par_18</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="selfefficacy" class="nopad" scope="row">selfefficacy</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="3,93333333333333">3,933</td>
+                        <td x="0,0647767083747996">,065</td>
+                        <td x="60,7214141011144">60,721</td>
+                        <td>***</td>
+                        <td align="left">par_19</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="currentGPA" class="nopad" scope="row">currentGPA</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="3,0785">3,079</td>
+                        <td x="0,0419706021678344">,042</td>
+                        <td x="73,3489595333782">73,349</td>
+                        <td>***</td>
+                        <td align="left">par_20</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Intercepts:" tabindex="1">
+                  <h2 tabindex="1" h="572">Intercepts: (Group number 1 -  Default model)</h2>
+                  <table summary="Intercepts: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9030">Estimate</th>
+                        <th class="B2" scope="col" colhelp="9031">S.E.</th>
+                        <th class="B2" scope="col" colhelp="9032">C.R.</th>
+                        <th class="B2" scope="col" colhelp="9033">P</th>
+                        <th align="left" class="B2" scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="availabilityofdigitalresources" class="nopad" scope="row">availabilityofdigitalresources</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="2,67247773158566">2,672</td>
+                        <td x="0,931344760033002">,931</td>
+                        <td x="2,86948275898493">2,869</td>
+                        <td x="0,00411143746390419">,004</td>
+                        <td align="left">par_22</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="academicperformance" class="nopad" scope="row">academicperformance</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td nowrap="" x="-0,365470000835193">-,365</td>
+                        <td x="0,248948008627022">,249</td>
+                        <td nowrap="" x="-1,4680575388042">-1,468</td>
+                        <td x="0,142088594128379">,142</td>
+                        <td align="left">par_21</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Covariances:" tabindex="1">
+                  <h2 tabindex="1" h="573">Covariances: (Group number 1 -  Default model)</h2>
+                  <table summary="Covariances: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9040">Estimate</th>
+                        <th class="B2" scope="col" colhelp="9041">S.E.</th>
+                        <th class="B2" scope="col" colhelp="9042">C.R.</th>
+                        <th class="B2" scope="col" colhelp="9043">P</th>
+                        <th align="left" class="B2" scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="Academicyear" class="nopad">Academicyear</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="Age" class="B3">Age</td>
+                        <td x="1,42407413650033">1,424</td>
+                        <td x="0,183725146403633">,184</td>
+                        <td x="7,7511117251839">7,751</td>
+                        <td>***</td>
+                        <td align="left">par_1</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="selfefficacy" class="nopad">selfefficacy</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="timespentonsocialmediadaily" class="B3">timespentonsocialmediadaily</td>
+                        <td x="0,268148148148149">,268</td>
+                        <td x="0,132472290452161">,132</td>
+                        <td x="2,02418292333357">2,024</td>
+                        <td x="0,0429513339577089">,043</td>
+                        <td align="left">par_2</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="timespentonsocialmediadaily" class="nopad">timespentonsocialmediadaily</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="currentGPA" class="B3">currentGPA</td>
+                        <td x="0,184672222222227">,185</td>
+                        <td x="0,0859598317742516">,086</td>
+                        <td x="2,14835485843218">2,148</td>
+                        <td x="0,031685575969679">,032</td>
+                        <td align="left">par_3</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="selfefficacy" class="nopad">selfefficacy</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td nowrap="" x="-0,116296296296298">-,116</td>
+                        <td x="0,172978537886714">,173</td>
+                        <td nowrap="" x="-0,672316333095971">-,672</td>
+                        <td x="0,501382333953261">,501</td>
+                        <td align="left">par_4</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="selfefficacy" class="nopad">selfefficacy</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="currentGPA" class="B3">currentGPA</td>
+                        <td nowrap="" x="-0,0883777777777811">-,088</td>
+                        <td x="0,03696943749359">,037</td>
+                        <td nowrap="" x="-2,39056322653285">-2,391</td>
+                        <td x="0,0168225523302229">,017</td>
+                        <td align="left">par_5</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="currentGPA" class="nopad">currentGPA</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td x="0,165730555555558">,166</td>
+                        <td x="0,112619241782206">,113</td>
+                        <td x="1,47160070457643">1,472</td>
+                        <td x="0,141128735200739">,141</td>
+                        <td align="left">par_6</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="timespentonsocialmediadaily" class="nopad">timespentonsocialmediadaily</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td x="0,530432098765428">,530</td>
+                        <td x="0,404912272442224">,405</td>
+                        <td x="1,30999264498982">1,310</td>
+                        <td x="0,190198323754761">,190</td>
+                        <td align="left">par_7</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Correlations:" tabindex="1">
+                  <h2 tabindex="1" h="574">Correlations: (Group number 1 -  Default model)</h2>
+                  <table summary="Correlations: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9050">Estimate</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="Academicyear" class="nopad">Academicyear</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="Age" class="B3">Age</td>
+                        <td x="0,710764897079912">,711</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="selfefficacy" class="nopad">selfefficacy</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="timespentonsocialmediadaily" class="B3">timespentonsocialmediadaily</td>
+                        <td x="0,153053991865482">,153</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="timespentonsocialmediadaily" class="nopad">timespentonsocialmediadaily</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="currentGPA" class="B3">currentGPA</td>
+                        <td x="0,162684100216235">,163</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="selfefficacy" class="nopad">selfefficacy</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td nowrap="" x="-0,0503140711100597">-,050</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="selfefficacy" class="nopad">selfefficacy</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="currentGPA" class="B3">currentGPA</td>
+                        <td nowrap="" x="-0,181598629254868">-,182</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="currentGPA" class="nopad">currentGPA</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td x="0,110662336823245">,111</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <td align="left" vname="timespentonsocialmediadaily" class="nopad">timespentonsocialmediadaily</td>
+                        <td align="left" class="nopad" nowrap="">&lt;--&gt;</td>
+                        <td align="left" vname="selfregulation" class="B3">selfregulation</td>
+                        <td x="0,0983846665719862">,098</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Variances:" tabindex="1">
+                  <h2 tabindex="1" h="575">Variances: (Group number 1 -  Default model)</h2>
+                  <table summary="Variances: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9060">Estimate</th>
+                        <th class="B2" scope="col" colhelp="9061">S.E.</th>
+                        <th class="B2" scope="col" colhelp="9062">C.R.</th>
+                        <th class="B2" scope="col" colhelp="9063">P</th>
+                        <th align="left" class="B2" scope="col">Label</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="Academicyear" class="nopad" scope="row">Academicyear</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="0,66111109051263">,661</td>
+                        <td x="0,0698805352690774">,070</td>
+                        <td x="9,46058996209745">9,461</td>
+                        <td>***</td>
+                        <td align="left">par_23</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="Age" class="nopad" scope="row">Age</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="6,0720985762414">6,072</td>
+                        <td x="0,641830858389214">,642</td>
+                        <td x="9,46058996209747">9,461</td>
+                        <td>***</td>
+                        <td align="left">par_24</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="e8" class="nopad" scope="row">e8</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="1,38557456438724">1,386</td>
+                        <td x="0,146865860763667">,147</td>
+                        <td x="9,43428620635587">9,434</td>
+                        <td>***</td>
+                        <td align="left">par_25</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="selfefficacy" class="nopad" scope="row">selfefficacy</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="0,75111111111111">,751</td>
+                        <td x="0,079393686241591">,079</td>
+                        <td x="9,46058996209744">9,461</td>
+                        <td>***</td>
+                        <td align="left">par_26</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="timespentonsocialmediadaily" class="nopad" scope="row">timespentonsocialmediadaily</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="4,08654320987654">4,087</td>
+                        <td x="0,431954373485027">,432</td>
+                        <td x="9,46058996209746">9,461</td>
+                        <td>***</td>
+                        <td align="left">par_27</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="currentGPA" class="nopad" scope="row">currentGPA</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="0,315323861111115">,315</td>
+                        <td x="0,0333302534381487">,033</td>
+                        <td x="9,46058996209748">9,461</td>
+                        <td>***</td>
+                        <td align="left">par_28</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="selfregulation" class="nopad" scope="row">selfregulation</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="7,11293209876543">7,113</td>
+                        <td x="0,751848682509485">,752</td>
+                        <td x="9,46058996209746">9,461</td>
+                        <td>***</td>
+                        <td align="left">par_29</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="e5" class="nopad" scope="row">e5</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="0,143609142998141">,144</td>
+                        <td x="0,0151815381031284">,015</td>
+                        <td x="9,45945937905643">9,459</td>
+                        <td>***</td>
+                        <td align="left">par_30</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div nodecaption="Squared Multiple Correlations:" tabindex="1">
+                  <h2 tabindex="1" h="576">Squared Multiple Correlations: (Group number 1 -  Default model)</h2>
+                  <table summary="Squared Multiple Correlations: (Group number 1 -  Default model)" tabindex="1">
+                    <colgroup>
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                      <col />
+                    </colgroup>
+                    <thead>
+                      <tr align="right" RowID="">
+                        <td class="B2">
+                        </td>
+                        <td class="B2">
+                        </td>
+                        <td class="B1">
+                        </td>
+                        <th class="B2" scope="col" colhelp="9070">Estimate</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="availabilityofdigitalresources" class="nopad" scope="row">availabilityofdigitalresources</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="0,014916915802048">,015</td>
+                      </tr>
+                      <tr align="right" RowID="">
+                        <th align="left" vname="academicperformance" class="nopad" scope="row">academicperformance</th>
+                        <td>
+                        </td>
+                        <td class="B3">
+                        </td>
+                        <td x="0,777828658092468">,778</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div nodecaption="Minimization History" tabindex="1" ntype="minimizationhistory">
+            <h2 tabindex="1" h="501">Minimization History (Default model)</h2>
+            <table summary="Minimization History (Default model)" tabindex="1">
+              <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+              </colgroup>
+              <thead>
+                <tr align="right" RowID="">
+                  <th class="B1" scope="col">Iteration</th>
+                  <td class="B2">
+                  </td>
+                  <th scope="col" class="B2">Negative<br />eigenvalues</th>
+                  <th class="B2" scope="col">Condition #</th>
+                  <th scope="col" class="B2">Smallest<br />eigenvalue</th>
+                  <th class="B2" scope="col">Diameter</th>
+                  <th class="B2" scope="col">F</th>
+                  <th class="B2" scope="col">NTries</th>
+                  <th class="B2" scope="col">Ratio</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">0</th>
+                  <td align="left">e</td>
+                  <td>2</td>
+                  <td>
+                  </td>
+                  <td nowrap="" x="-0,284217003460793">-,284</td>
+                  <td x="9999">9999,000</td>
+                  <td x="1194,84610246304">1194,846</td>
+                  <td>0</td>
+                  <td x="9999">9999,000</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">1</th>
+                  <td align="left">e</td>
+                  <td>2</td>
+                  <td>
+                  </td>
+                  <td nowrap="" x="-0,3004069231345">-,300</td>
+                  <td x="0,398049891261744">,398</td>
+                  <td x="390,287804740576">390,288</td>
+                  <td>14</td>
+                  <td x="0,83930202742588">,839</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">2</th>
+                  <td align="left">e</td>
+                  <td>1</td>
+                  <td>
+                  </td>
+                  <td nowrap="" x="-0,137215889276027">-,137</td>
+                  <td x="0,538608173764002">,539</td>
+                  <td x="197,791048924568">197,791</td>
+                  <td>6</td>
+                  <td x="0,959608044387478">,960</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">3</th>
+                  <td align="left">e*</td>
+                  <td>0</td>
+                  <td x="5797,33920021111">5797,339</td>
+                  <td>
+                  </td>
+                  <td x="0,711301990953414">,711</td>
+                  <td x="108,990978561298">108,991</td>
+                  <td>5</td>
+                  <td x="0,548844217046361">,549</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">4</th>
+                  <td align="left">e</td>
+                  <td>0</td>
+                  <td x="7045,26951702683">7045,270</td>
+                  <td>
+                  </td>
+                  <td x="0,642652888004027">,643</td>
+                  <td x="43,6580403652911">43,658</td>
+                  <td>1</td>
+                  <td x="0,957786143053805">,958</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">5</th>
+                  <td align="left">e</td>
+                  <td>0</td>
+                  <td x="6020,49804510336">6020,498</td>
+                  <td>
+                  </td>
+                  <td x="0,0955048582257">,096</td>
+                  <td x="32,0738119969287">32,074</td>
+                  <td>1</td>
+                  <td x="1,1753249783165">1,175</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">6</th>
+                  <td align="left">e</td>
+                  <td>0</td>
+                  <td x="5748,43888282478">5748,439</td>
+                  <td>
+                  </td>
+                  <td x="0,026138051357538">,026</td>
+                  <td x="30,8115064421183">30,812</td>
+                  <td>1</td>
+                  <td x="1,08712920446702">1,087</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">7</th>
+                  <td align="left">e</td>
+                  <td>0</td>
+                  <td x="5544,5117747223">5544,512</td>
+                  <td>
+                  </td>
+                  <td x="0,00396395356930796">,004</td>
+                  <td x="30,7860242587217">30,786</td>
+                  <td>1</td>
+                  <td x="1,01545488416374">1,015</td>
+                </tr>
+                <tr align="right" RowID="">
+                  <th class="B3" scope="row">8</th>
+                  <td align="left">e</td>
+                  <td>0</td>
+                  <td x="5672,86969024936">5672,870</td>
+                  <td>
+                  </td>
+                  <td x="9,59693865865524E-05">,000</td>
+                  <td x="30,7860101049405">30,786</td>
+                  <td>1</td>
+                  <td x="1,00039258207194">1,000</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div nodecaption="Pairwise Parameter Comparisons" caption="Pairwise Parameter Comparisons" ntype="parameterpairs">
+            <div>
+              <h2 tabindex="1">Pairwise Parameter Comparisons (Default model)</h2>
+            </div>
+            <div nodecaption="Variance-covariance Matrix of Estimates" tabindex="1" ntype="ppml">
+              <h2 tabindex="1" h="776">Variance-covariance Matrix of Estimates (Default model)</h2>
+              <table summary="Variance-covariance Matrix of Estimates (Default model)" tabindex="1" inasentence="776">
+                <colgroup>
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <thead>
+                  <tr align="right" RowID="">
+                    <td class="B1">
+                    </td>
+                    <th class="B2" scope="col">par_1</th>
+                    <th class="B2" scope="col">par_2</th>
+                    <th class="B2" scope="col">par_3</th>
+                    <th class="B2" scope="col">par_4</th>
+                    <th class="B2" scope="col">par_5</th>
+                    <th class="B2" scope="col">par_6</th>
+                    <th class="B2" scope="col">par_7</th>
+                    <th class="B2" scope="col">par_8</th>
+                    <th class="B2" scope="col">par_9</th>
+                    <th class="B2" scope="col">par_10</th>
+                    <th class="B2" scope="col">par_11</th>
+                    <th class="B2" scope="col">par_12</th>
+                    <th class="B2" scope="col">par_13</th>
+                    <th class="B2" scope="col">par_14</th>
+                    <th class="B2" scope="col">par_15</th>
+                    <th class="B2" scope="col">par_16</th>
+                    <th class="B2" scope="col">par_17</th>
+                    <th class="B2" scope="col">par_18</th>
+                    <th class="B2" scope="col">par_19</th>
+                    <th class="B2" scope="col">par_20</th>
+                    <th class="B2" scope="col">par_21</th>
+                    <th class="B2" scope="col">par_22</th>
+                    <th class="B2" scope="col">par_23</th>
+                    <th class="B2" scope="col">par_24</th>
+                    <th class="B2" scope="col">par_25</th>
+                    <th class="B2" scope="col">par_26</th>
+                    <th class="B2" scope="col">par_27</th>
+                    <th class="B2" scope="col">par_28</th>
+                    <th class="B2" scope="col">par_29</th>
+                    <th class="B2" scope="col">par_30</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_1</th>
+                    <td x="0,0337549294210366">,034</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_2</th>
+                    <td nowrap="" x="-7,65189505730869E-40">,000</td>
+                    <td x="0,0175489077376416">,018</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_3</th>
+                    <td x="3,44300301141199E-39">,000</td>
+                    <td nowrap="" x="-0,00174095237294457">-,002</td>
+                    <td x="0,00738909267865764">,007</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_4</th>
+                    <td x="4,44564587923154E-40">,000</td>
+                    <td x="0,00205149425900521">,002</td>
+                    <td nowrap="" x="-1,36200745143894E-05">,000</td>
+                    <td x="0,0299215745694254">,030</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_5</th>
+                    <td x="7,56769156122539E-40">,000</td>
+                    <td x="0,000642499837169147">,001</td>
+                    <td x="0,000381175881913324">,000</td>
+                    <td x="0,000752826316745432">,001</td>
+                    <td x="0,00136673930859246">,001</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_6</th>
+                    <td nowrap="" x="-5,1430497311782E-40">,000</td>
+                    <td nowrap="" x="-0,000381860312283032">,000</td>
+                    <td x="0,00110534983530385">,001</td>
+                    <td nowrap="" x="-0,00361943567198443">-,004</td>
+                    <td nowrap="" x="-0,000286683304498816">,000</td>
+                    <td x="0,012683093619599">,013</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_7</th>
+                    <td x="1,74324015648325E-39">,000</td>
+                    <td nowrap="" x="-0,00186036411567798">-,002</td>
+                    <td x="0,00433071075035149">,004</td>
+                    <td x="0,0103104766352238">,010</td>
+                    <td x="0,00012828456612305">,000</td>
+                    <td x="0,00782919848249991">,008</td>
+                    <td x="0,163953948374326">,164</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_8</th>
+                    <td x="6,55207366155016E-18">,000</td>
+                    <td nowrap="" x="-1,25975473740287E-35">,000</td>
+                    <td nowrap="" x="-2,43984446823101E-35">,000</td>
+                    <td x="1,744675698693E-34">,000</td>
+                    <td nowrap="" x="-6,36849681291919E-35">,000</td>
+                    <td x="3,39280195252381E-35">,000</td>
+                    <td x="3,40074171574319E-35">,000</td>
+                    <td x="0,00259030152155909">,003</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_9</th>
+                    <td x="7,71310474176109E-17">,000</td>
+                    <td x="2,99356145059281E-35">,000</td>
+                    <td x="3,19905113212807E-35">,000</td>
+                    <td nowrap="" x="-3,82786582010723E-34">,000</td>
+                    <td x="1,48753456812557E-34">,000</td>
+                    <td x="4,5387835542216E-35">,000</td>
+                    <td nowrap="" x="-3,77312562948607E-35">,000</td>
+                    <td nowrap="" x="-0,00557966949715072">-,006</td>
+                    <td x="0,0237911091861792">,024</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_10</th>
+                    <td nowrap="" x="-9,56162184772408E-33">,000</td>
+                    <td nowrap="" x="-1,87831165192822E-18">,000</td>
+                    <td nowrap="" x="-1,66794834212812E-32">,000</td>
+                    <td x="1,23487151645759E-17">,000</td>
+                    <td nowrap="" x="-5,84297179316981E-18">,000</td>
+                    <td nowrap="" x="-6,06312930630813E-32">,000</td>
+                    <td x="2,83927305782612E-32">,000</td>
+                    <td x="1,65866268311042E-20">,000</td>
+                    <td nowrap="" x="-3,1332067643543E-20">,000</td>
+                    <td x="0,00114778888280096">,001</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_11</th>
+                    <td x="1,1052188274529E-32">,000</td>
+                    <td x="4,62965086915771E-32">,000</td>
+                    <td nowrap="" x="-1,8783116519283E-18">,000</td>
+                    <td x="2,04344483640337E-33">,000</td>
+                    <td x="4,23365975737284E-18">,000</td>
+                    <td x="1,23487151645758E-17">,000</td>
+                    <td x="7,80777123478779E-32">,000</td>
+                    <td x="1,43624745600243E-20">,000</td>
+                    <td nowrap="" x="-1,40207874458562E-20">,000</td>
+                    <td x="0,000367799724435227">,000</td>
+                    <td x="0,00275610209187544">,003</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_12</th>
+                    <td x="3,14389833871851E-18">,000</td>
+                    <td x="1,85179829658476E-32">,000</td>
+                    <td nowrap="" x="-2,31669414166698E-32">,000</td>
+                    <td nowrap="" x="-8,80593881387269E-33">,000</td>
+                    <td x="1,52517932930704E-32">,000</td>
+                    <td nowrap="" x="-2,50597866268253E-33">,000</td>
+                    <td x="3,8322202537088E-32">,000</td>
+                    <td nowrap="" x="-6,73394560260319E-08">,000</td>
+                    <td nowrap="" x="-6,91111401018007E-08">,000</td>
+                    <td nowrap="" x="-1,89087211392734E-18">,000</td>
+                    <td x="1,93681521390569E-18">,000</td>
+                    <td x="0,000573379396866738">,001</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_13</th>
+                    <td x="9,86814013107276E-34">,000</td>
+                    <td x="1,88741134549948E-33">,000</td>
+                    <td nowrap="" x="-5,11013411910746E-33">,000</td>
+                    <td x="4,23365975737279E-18">,000</td>
+                    <td nowrap="" x="-1,13094886178742E-33">,000</td>
+                    <td nowrap="" x="-5,84297179316983E-18">,000</td>
+                    <td nowrap="" x="-1,87831165192823E-18">,000</td>
+                    <td x="2,26262652070372E-22">,000</td>
+                    <td nowrap="" x="-1,67089177601069E-21">,000</td>
+                    <td x="1,7219230337646E-05">,000</td>
+                    <td nowrap="" x="-4,75761406992607E-05">,000</td>
+                    <td x="1,81978717999387E-19">,000</td>
+                    <td x="0,000115231993654204">,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_14</th>
+                    <td x="3,87002883168244E-33">,000</td>
+                    <td x="4,23365975737277E-18">,000</td>
+                    <td nowrap="" x="-5,84297179316983E-18">,000</td>
+                    <td x="8,85346775379625E-33">,000</td>
+                    <td nowrap="" x="-2,96086461454791E-33">,000</td>
+                    <td x="4,97725289539423E-33">,000</td>
+                    <td x="1,23487151645759E-17">,000</td>
+                    <td nowrap="" x="-1,17389139691298E-21">,000</td>
+                    <td x="1,95513038133502E-21">,000</td>
+                    <td nowrap="" x="-9,41709088966255E-05">,000</td>
+                    <td nowrap="" x="-0,0001425078289653">,000</td>
+                    <td x="7,08430556241491E-19">,000</td>
+                    <td nowrap="" x="-1,3936977639478E-05">,000</td>
+                    <td x="0,000210769577508094">,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_15</th>
+                    <td x="6,82759482529711E-17">,000</td>
+                    <td nowrap="" x="-7,97334363453582E-39">,000</td>
+                    <td x="3,46826976591472E-38">,000</td>
+                    <td nowrap="" x="-1,92626509008024E-39">,000</td>
+                    <td nowrap="" x="-6,618418240716E-38">,000</td>
+                    <td nowrap="" x="-3,2837072458824E-38">,000</td>
+                    <td x="6,18886623368015E-38">,000</td>
+                    <td nowrap="" x="-6,98206132106378E-19">,000</td>
+                    <td nowrap="" x="-1,44155996443959E-22">,000</td>
+                    <td x="1,85674583951739E-31">,000</td>
+                    <td x="7,65729761711246E-33">,000</td>
+                    <td x="1,19598777254124E-18">,000</td>
+                    <td nowrap="" x="-1,50892919689942E-33">,000</td>
+                    <td nowrap="" x="-4,34581969986345E-33">,000</td>
+                    <td x="0,0339212914290031">,034</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_16</th>
+                    <td x="2,60987592105978E-17">,000</td>
+                    <td nowrap="" x="-3,75272347928154E-39">,000</td>
+                    <td x="1,23721901696641E-38">,000</td>
+                    <td nowrap="" x="-4,4821415413761E-41">,000</td>
+                    <td nowrap="" x="-1,94261271180443E-38">,000</td>
+                    <td nowrap="" x="-1,08023466762009E-38">,000</td>
+                    <td x="1,46230633556147E-38">,000</td>
+                    <td nowrap="" x="-3,92014121423343E-23">,000</td>
+                    <td nowrap="" x="-6,98105904381499E-19">,000</td>
+                    <td x="4,12879821032571E-32">,000</td>
+                    <td nowrap="" x="-3,57425809853338E-32">,000</td>
+                    <td x="3,33790668510048E-19">,000</td>
+                    <td nowrap="" x="-1,92659400139287E-33">,000</td>
+                    <td x="1,85342478917977E-33">,000</td>
+                    <td x="0,007955475886005">,008</td>
+                    <td x="0,00369324405502429">,004</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_17</th>
+                    <td x="7,44746801728671E-39">,000</td>
+                    <td nowrap="" x="-5,95394290595123E-18">,000</td>
+                    <td nowrap="" x="-6,70022054919451E-18">,000</td>
+                    <td x="8,02587619036752E-19">,000</td>
+                    <td nowrap="" x="-7,43568377787208E-19">,000</td>
+                    <td x="2,15288333136197E-19">,000</td>
+                    <td x="2,55348168774005E-17">,000</td>
+                    <td nowrap="" x="-1,97949447348321E-35">,000</td>
+                    <td x="5,7242235551231E-35">,000</td>
+                    <td x="1,80522904354053E-32">,000</td>
+                    <td x="4,51440190064733E-32">,000</td>
+                    <td x="1,97940844618898E-32">,000</td>
+                    <td x="3,67040731208769E-33">,000</td>
+                    <td x="4,77429686982394E-18">,000</td>
+                    <td nowrap="" x="-7,95948912857626E-21">,000</td>
+                    <td nowrap="" x="-2,21994698934864E-21">,000</td>
+                    <td x="0,0228291457094957">,023</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_18</th>
+                    <td nowrap="" x="-1,33305786071326E-38">,000</td>
+                    <td nowrap="" x="-9,90145037425075E-19">,000</td>
+                    <td nowrap="" x="-6,65797491221328E-19">,000</td>
+                    <td nowrap="" x="-1,17395334793588E-17">,000</td>
+                    <td nowrap="" x="-5,88681693704558E-20">,000</td>
+                    <td nowrap="" x="-1,1119912795451E-17">,000</td>
+                    <td x="1,34456924583688E-17">,000</td>
+                    <td nowrap="" x="-6,01418291652989E-36">,000</td>
+                    <td x="6,29048390492267E-36">,000</td>
+                    <td x="3,77638387448879E-32">,000</td>
+                    <td x="3,66482848944736E-32">,000</td>
+                    <td x="2,1765919523714E-32">,000</td>
+                    <td x="4,77429686982395E-18">,000</td>
+                    <td x="3,40808568999161E-33">,000</td>
+                    <td nowrap="" x="-9,13923635224161E-21">,000</td>
+                    <td nowrap="" x="-2,5509416056481E-21">,000</td>
+                    <td x="0,00296321635421429">,003</td>
+                    <td x="0,039735824378906">,040</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_19</th>
+                    <td x="6,66130458448195E-39">,000</td>
+                    <td x="6,64310823098669E-19">,000</td>
+                    <td nowrap="" x="-5,84190210029937E-19">,000</td>
+                    <td x="4,73351965310995E-18">,000</td>
+                    <td nowrap="" x="-1,14322309465551E-18">,000</td>
+                    <td nowrap="" x="-3,37494669247977E-19">,000</td>
+                    <td x="1,45820208058142E-18">,000</td>
+                    <td x="4,62773098731863E-35">,000</td>
+                    <td nowrap="" x="-9,34194443779016E-35">,000</td>
+                    <td x="4,77429686982392E-18">,000</td>
+                    <td nowrap="" x="-2,70569992090065E-32">,000</td>
+                    <td nowrap="" x="-9,1428722143962E-33">,000</td>
+                    <td x="2,57252725909564E-33">,000</td>
+                    <td x="3,09627449685712E-33">,000</td>
+                    <td x="5,19223303744992E-21">,000</td>
+                    <td x="1,44894696993231E-21">,000</td>
+                    <td x="0,00149798811156837">,001</td>
+                    <td nowrap="" x="-0,000649679926840435">-,001</td>
+                    <td x="0,00419602194787383">,004</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_20</th>
+                    <td nowrap="" x="-1,5831547895262E-38">,000</td>
+                    <td nowrap="" x="-4,13600097746393E-19">,000</td>
+                    <td x="1,38732268018803E-19">,000</td>
+                    <td nowrap="" x="-7,92834890941942E-19">,000</td>
+                    <td nowrap="" x="-3,38527300074296E-19">,000</td>
+                    <td x="1,62893778143271E-18">,000</td>
+                    <td x="1,3578158661271E-18">,000</td>
+                    <td x="2,07284355603387E-35">,000</td>
+                    <td nowrap="" x="-1,32428829442733E-35">,000</td>
+                    <td x="1,29863109876237E-33">,000</td>
+                    <td x="4,77429686982398E-18">,000</td>
+                    <td x="1,01401947852076E-32">,000</td>
+                    <td x="3,31830510930421E-33">,000</td>
+                    <td x="3,16719806094636E-33">,000</td>
+                    <td nowrap="" x="-1,65445866410788E-20">,000</td>
+                    <td nowrap="" x="-4,61662930697209E-21">,000</td>
+                    <td x="0,00103165655006862">,001</td>
+                    <td x="0,000925840449245568">,001</td>
+                    <td nowrap="" x="-0,000493715363511683">,000</td>
+                    <td x="0,00176153144633062">,002</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_21</th>
+                    <td nowrap="" x="-1,19877389586481E-17">,000</td>
+                    <td nowrap="" x="-6,11264472870465E-18">,000</td>
+                    <td x="2,44149702497919E-17">,000</td>
+                    <td nowrap="" x="-7,54083117760115E-17">,000</td>
+                    <td x="9,94903415672895E-18">,000</td>
+                    <td nowrap="" x="-9,7757065633106E-19">,000</td>
+                    <td nowrap="" x="-2,74722717200918E-17">,000</td>
+                    <td x="2,56766515162234E-07">,000</td>
+                    <td x="2,63521977308337E-07">,000</td>
+                    <td nowrap="" x="-0,0054557579468498">-,005</td>
+                    <td nowrap="" x="-0,00917531770392856">-,009</td>
+                    <td nowrap="" x="-0,00218630559686204">-,002</td>
+                    <td nowrap="" x="-0,000607265154598661">-,001</td>
+                    <td x="0,000225340115335281">,000</td>
+                    <td x="4,6072716762454E-17">,000</td>
+                    <td nowrap="" x="-2,85332677297005E-18">,000</td>
+                    <td nowrap="" x="-1,71030192334287E-17">,000</td>
+                    <td nowrap="" x="-1,79150253105002E-17">,000</td>
+                    <td nowrap="" x="-1,4545240362387E-17">,000</td>
+                    <td nowrap="" x="-2,05406478845852E-17">,000</td>
+                    <td x="0,0619751109993597">,062</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_22</th>
+                    <td nowrap="" x="-3,1315571123893E-16">,000</td>
+                    <td x="2,24050686171748E-34">,000</td>
+                    <td x="4,6942740436972E-34">,000</td>
+                    <td nowrap="" x="-3,08948854486633E-33">,000</td>
+                    <td x="1,1177594066968E-33">,000</td>
+                    <td nowrap="" x="-8,58647553462588E-34">,000</td>
+                    <td nowrap="" x="-6,73376486857212E-34">,000</td>
+                    <td nowrap="" x="-0,0456456588922572">-,046</td>
+                    <td x="0,0728172302219935">,073</td>
+                    <td nowrap="" x="-3,03169030788048E-19">,000</td>
+                    <td nowrap="" x="-2,9679956133123E-19">,000</td>
+                    <td x="1,65066245676108E-06">,000</td>
+                    <td nowrap="" x="-6,11695052323015E-22">,000</td>
+                    <td x="2,17835144996853E-20">,000</td>
+                    <td x="9,25661749657716E-17">,000</td>
+                    <td x="8,06986896740745E-18">,000</td>
+                    <td x="2,05250577526854E-20">,000</td>
+                    <td x="1,18925284935574E-20">,000</td>
+                    <td nowrap="" x="-3,46453888210748E-21">,000</td>
+                    <td x="1,22113738929639E-20">,000</td>
+                    <td nowrap="" x="-8,31923269907109E-06">,000</td>
+                    <td x="0,86740306204093">,867</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_23</th>
+                    <td x="0,0105189066770873">,011</td>
+                    <td nowrap="" x="-2,28184938098252E-40">,000</td>
+                    <td x="9,93684423745906E-40">,000</td>
+                    <td x="1,12240344049957E-40">,000</td>
+                    <td x="1,99750998469197E-40">,000</td>
+                    <td nowrap="" x="-1,24468397395206E-40">,000</td>
+                    <td x="5,16094815055133E-40">,000</td>
+                    <td x="2,59550087942955E-23">,000</td>
+                    <td x="1,31049124193352E-17">,000</td>
+                    <td x="9,49682502681975E-34">,000</td>
+                    <td nowrap="" x="-7,54727679644027E-34">,000</td>
+                    <td nowrap="" x="-2,21000704980018E-19">,000</td>
+                    <td nowrap="" x="-7,20769224823338E-35">,000</td>
+                    <td nowrap="" x="-2,77935543500695E-34">,000</td>
+                    <td x="1,14299314279186E-17">,000</td>
+                    <td x="5,30622264467625E-18">,000</td>
+                    <td x="3,96107544049821E-39">,000</td>
+                    <td nowrap="" x="-1,55116731456055E-38">,000</td>
+                    <td x="8,77045397233834E-39">,000</td>
+                    <td nowrap="" x="-2,23997503261244E-38">,000</td>
+                    <td x="8,42679525718232E-19">,000</td>
+                    <td nowrap="" x="-2,83945554168667E-17">,000</td>
+                    <td x="0,00488328920949277">,005</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_24</th>
+                    <td x="0,0966128676014667">,097</td>
+                    <td nowrap="" x="-2,40074844426383E-39">,000</td>
+                    <td x="1,15513038640377E-38">,000</td>
+                    <td x="1,87183941729878E-39">,000</td>
+                    <td x="2,99627542877114E-39">,000</td>
+                    <td nowrap="" x="-2,32488137385647E-39">,000</td>
+                    <td x="5,55669373998685E-39">,000</td>
+                    <td x="1,54259873574648E-16">,000</td>
+                    <td nowrap="" x="-3,05752823619443E-21">,000</td>
+                    <td nowrap="" x="-7,9617094701461E-32">,000</td>
+                    <td x="8,88218418228329E-32">,000</td>
+                    <td x="2,53667307839559E-17">,000</td>
+                    <td x="8,0065939573565E-33">,000</td>
+                    <td x="3,12488981583323E-32">,000</td>
+                    <td x="3,74437534767002E-16">,000</td>
+                    <td x="8,7815901257436E-17">,000</td>
+                    <td nowrap="" x="-4,43329688739228E-38">,000</td>
+                    <td x="1,11621363253474E-37">,000</td>
+                    <td nowrap="" x="-5,96826457144135E-38">,000</td>
+                    <td x="1,47804394321656E-37">,000</td>
+                    <td nowrap="" x="-9,67237849670152E-17">,000</td>
+                    <td nowrap="" x="-3,43827455747487E-15">,000</td>
+                    <td x="0,0226583749056234">,023</td>
+                    <td x="0,411946850780635">,412</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_25</th>
+                    <td nowrap="" x="-4,7319634092988E-22">,000</td>
+                    <td nowrap="" x="-2,70535998915618E-36">,000</td>
+                    <td x="3,51141364996948E-36">,000</td>
+                    <td x="1,52174895005442E-36">,000</td>
+                    <td nowrap="" x="-2,1858409875625E-36">,000</td>
+                    <td x="3,91248154137785E-37">,000</td>
+                    <td nowrap="" x="-5,57377488270831E-36">,000</td>
+                    <td x="1,01354955246053E-11">,000</td>
+                    <td x="1,04020000183952E-11">,000</td>
+                    <td x="2,90381711354653E-22">,000</td>
+                    <td nowrap="" x="-4,23610987311993E-22">,000</td>
+                    <td nowrap="" x="-8,63008289179912E-08">,000</td>
+                    <td nowrap="" x="-2,73792480886418E-23">,000</td>
+                    <td nowrap="" x="-1,08004870966398E-22">,000</td>
+                    <td nowrap="" x="-1,80011239889588E-22">,000</td>
+                    <td nowrap="" x="-5,02397043490946E-23">,000</td>
+                    <td nowrap="" x="-2,9412825947413E-36">,000</td>
+                    <td nowrap="" x="-3,25104835517184E-36">,000</td>
+                    <td x="1,37906885730573E-36">,000</td>
+                    <td nowrap="" x="-1,45342288023226E-36">,000</td>
+                    <td x="3,29066559259522E-07">,000</td>
+                    <td nowrap="" x="-2,48446602262456E-10">,000</td>
+                    <td x="3,3263392692919E-23">,000</td>
+                    <td nowrap="" x="-3,81801282770069E-21">,000</td>
+                    <td x="0,0215695810578527">,022</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_26</th>
+                    <td nowrap="" x="-3,87468681609792E-40">,000</td>
+                    <td x="0,00225031102982269">,002</td>
+                    <td nowrap="" x="-0,000264777720875893">,000</td>
+                    <td nowrap="" x="-0,000975963623431402">-,001</td>
+                    <td nowrap="" x="-0,000741670190519767">-,001</td>
+                    <td x="0,000114834536401977">,000</td>
+                    <td nowrap="" x="-0,000348420938542571">,000</td>
+                    <td x="1,14268203175462E-34">,000</td>
+                    <td nowrap="" x="-2,27820203616748E-34">,000</td>
+                    <td x="8,46731951474553E-18">,000</td>
+                    <td nowrap="" x="-4,67197601279406E-32">,000</td>
+                    <td nowrap="" x="-1,36789950838298E-32">,000</td>
+                    <td x="5,17861162824125E-33">,000</td>
+                    <td x="6,33251304362801E-33">,000</td>
+                    <td x="3,48444502159082E-38">,000</td>
+                    <td x="1,00229422922519E-38">,000</td>
+                    <td nowrap="" x="-8,31977105030216E-19">,000</td>
+                    <td x="3,60829849419187E-19">,000</td>
+                    <td nowrap="" x="-2,33045520580287E-18">,000</td>
+                    <td x="2,74207702765632E-19">,000</td>
+                    <td nowrap="" x="-3,33047900913323E-17">,000</td>
+                    <td nowrap="" x="-2,07802623915153E-33">,000</td>
+                    <td nowrap="" x="-1,01388346597271E-40">,000</td>
+                    <td nowrap="" x="-1,54671407935868E-39">,000</td>
+                    <td x="2,04590038899888E-36">,000</td>
+                    <td x="0,0063033574150282">,006</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_27</th>
+                    <td x="3,08338097746116E-39">,000</td>
+                    <td x="0,0122431862916109">,012</td>
+                    <td x="0,00843181813921512">,008</td>
+                    <td x="0,00158916195588973">,002</td>
+                    <td x="0,000553273586851613">,001</td>
+                    <td x="0,00109444749811599">,001</td>
+                    <td x="0,0242186233434189">,024</td>
+                    <td nowrap="" x="-1,13382746490108E-35">,000</td>
+                    <td x="1,82152619797103E-35">,000</td>
+                    <td nowrap="" x="-1,17658587201124E-32">,000</td>
+                    <td nowrap="" x="-3,36835503916187E-32">,000</td>
+                    <td nowrap="" x="-1,3527274614354E-32">,000</td>
+                    <td nowrap="" x="-2,31111593326468E-33">,000</td>
+                    <td nowrap="" x="-3,75662330385647E-18">,000</td>
+                    <td nowrap="" x="-3,10714828901002E-38">,000</td>
+                    <td nowrap="" x="-5,43420327990288E-39">,000</td>
+                    <td x="1,17550919237974E-17">,000</td>
+                    <td x="1,52580745145449E-18">,000</td>
+                    <td x="7,71338015724235E-19">,000</td>
+                    <td x="5,31216442970097E-19">,000</td>
+                    <td x="1,19794543134092E-17">,000</td>
+                    <td x="2,10591845552143E-34">,000</td>
+                    <td x="9,01079994022092E-40">,000</td>
+                    <td x="1,01196533953738E-38">,000</td>
+                    <td x="2,09624582118205E-36">,000</td>
+                    <td x="0,000803365476129994">,001</td>
+                    <td x="0,186584580772842">,187</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_28</th>
+                    <td nowrap="" x="-7,22009081672095E-40">,000</td>
+                    <td nowrap="" x="-0,000182351026649913">,000</td>
+                    <td x="0,000650611853416415">,001</td>
+                    <td nowrap="" x="-0,000163647442962211">,000</td>
+                    <td nowrap="" x="-0,00031136046942476">,000</td>
+                    <td x="0,000583879170457917">,001</td>
+                    <td x="0,000341954026370806">,000</td>
+                    <td nowrap="" x="-4,2078961609561E-35">,000</td>
+                    <td x="2,28792084172521E-35">,000</td>
+                    <td x="1,20791830034029E-32">,000</td>
+                    <td nowrap="" x="-1,16859435863397E-17">,000</td>
+                    <td nowrap="" x="-1,37564851331021E-32">,000</td>
+                    <td nowrap="" x="-6,46684476882022E-33">,000</td>
+                    <td nowrap="" x="-4,04803009117116E-33">,000</td>
+                    <td x="1,14107208111217E-37">,000</td>
+                    <td x="3,38498322862782E-38">,000</td>
+                    <td nowrap="" x="-6,29576154042323E-19">,000</td>
+                    <td nowrap="" x="-5,65001084182588E-19">,000</td>
+                    <td x="3,01293506768911E-19">,000</td>
+                    <td nowrap="" x="-1,07498778845699E-18">,000</td>
+                    <td x="3,59751773305469E-17">,000</td>
+                    <td x="8,80537216015617E-34">,000</td>
+                    <td nowrap="" x="-2,02708740299143E-40">,000</td>
+                    <td nowrap="" x="-2,66920307230208E-39">,000</td>
+                    <td x="1,93891447542262E-36">,000</td>
+                    <td x="8,72669333638233E-05">,000</td>
+                    <td x="0,000381036615342576">,000</td>
+                    <td x="0,00111090579425123">,001</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_29</th>
+                    <td nowrap="" x="-4,23580594849509E-40">,000</td>
+                    <td nowrap="" x="-0,000689222174239476">-,001</td>
+                    <td x="0,000982190985230497">,001</td>
+                    <td nowrap="" x="-0,00924225841109375">-,009</td>
+                    <td nowrap="" x="-0,000215343630417118">,000</td>
+                    <td x="0,0131708804995483">,013</td>
+                    <td x="0,0421543134429547">,042</td>
+                    <td x="4,42136176365282E-35">,000</td>
+                    <td nowrap="" x="-2,92211890709896E-34">,000</td>
+                    <td x="1,96599374415217E-31">,000</td>
+                    <td x="4,44618065865613E-31">,000</td>
+                    <td x="6,62678759122034E-32">,000</td>
+                    <td x="2,46974303291518E-17">,000</td>
+                    <td nowrap="" x="-2,7782328653108E-33">,000</td>
+                    <td nowrap="" x="-1,14674711367141E-37">,000</td>
+                    <td nowrap="" x="-3,11936785827903E-38">,000</td>
+                    <td x="6,43077398605257E-18">,000</td>
+                    <td x="8,62347109305077E-17">,000</td>
+                    <td nowrap="" x="-1,4099357837453E-18">,000</td>
+                    <td x="2,00925952226743E-18">,000</td>
+                    <td nowrap="" x="-1,5655426669757E-16">,000</td>
+                    <td nowrap="" x="-3,07842339510629E-34">,000</td>
+                    <td nowrap="" x="-9,73500827604163E-41">,000</td>
+                    <td nowrap="" x="-2,0120071753296E-39">,000</td>
+                    <td nowrap="" x="-1,00345815624695E-35">,000</td>
+                    <td x="0,000151110738539184">,000</td>
+                    <td x="0,00314357013972382">,003</td>
+                    <td x="0,00030688010401855">,000</td>
+                    <td x="0,565276441391248">,565</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_30</th>
+                    <td nowrap="" x="-2,21832059233725E-21">,000</td>
+                    <td nowrap="" x="-2,85994335644878E-33">,000</td>
+                    <td x="3,94551657937992E-33">,000</td>
+                    <td x="1,87230902397089E-32">,000</td>
+                    <td nowrap="" x="-8,86688446076334E-33">,000</td>
+                    <td nowrap="" x="-2,58299869042882E-32">,000</td>
+                    <td nowrap="" x="-8,33129163317147E-33">,000</td>
+                    <td x="4,75144187016785E-11">,000</td>
+                    <td x="4,87645110116575E-11">,000</td>
+                    <td x="1,11111781381471E-18">,000</td>
+                    <td nowrap="" x="-5,32381987300423E-18">,000</td>
+                    <td nowrap="" x="-4,04573935372949E-07">,000</td>
+                    <td x="6,44299652030994E-19">,000</td>
+                    <td nowrap="" x="-4,84770895136054E-20">,000</td>
+                    <td nowrap="" x="-8,43883617791372E-22">,000</td>
+                    <td nowrap="" x="-2,35521201298525E-22">,000</td>
+                    <td nowrap="" x="-3,22450450051316E-33">,000</td>
+                    <td x="2,10916536194127E-32">,000</td>
+                    <td x="7,24284799338631E-33">,000</td>
+                    <td nowrap="" x="-9,9942410228648E-33">,000</td>
+                    <td x="1,54264744092536E-06">,000</td>
+                    <td nowrap="" x="-1,16470003959098E-09">,000</td>
+                    <td x="1,55937107998719E-22">,000</td>
+                    <td nowrap="" x="-1,78986516736014E-20">,000</td>
+                    <td nowrap="" x="-2,62844490129586E-07">,000</td>
+                    <td x="6,42641757132913E-33">,000</td>
+                    <td x="1,27264605795151E-33">,000</td>
+                    <td x="1,223233098227E-32">,000</td>
+                    <td x="5,45453228043078E-32">,000</td>
+                    <td x="0,000230479099176741">,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div nodecaption="Correlations of Estimates" tabindex="1" ntype="ppml">
+              <h2 tabindex="1" h="777">Correlations of Estimates (Default model)</h2>
+              <table summary="Correlations of Estimates (Default model)" tabindex="1" inasentence="777">
+                <colgroup>
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                  <col />
+                </colgroup>
+                <thead>
+                  <tr align="right" RowID="">
+                    <td class="B1">
+                    </td>
+                    <th class="B2" scope="col">par_1</th>
+                    <th class="B2" scope="col">par_2</th>
+                    <th class="B2" scope="col">par_3</th>
+                    <th class="B2" scope="col">par_4</th>
+                    <th class="B2" scope="col">par_5</th>
+                    <th class="B2" scope="col">par_6</th>
+                    <th class="B2" scope="col">par_7</th>
+                    <th class="B2" scope="col">par_8</th>
+                    <th class="B2" scope="col">par_9</th>
+                    <th class="B2" scope="col">par_10</th>
+                    <th class="B2" scope="col">par_11</th>
+                    <th class="B2" scope="col">par_12</th>
+                    <th class="B2" scope="col">par_13</th>
+                    <th class="B2" scope="col">par_14</th>
+                    <th class="B2" scope="col">par_15</th>
+                    <th class="B2" scope="col">par_16</th>
+                    <th class="B2" scope="col">par_17</th>
+                    <th class="B2" scope="col">par_18</th>
+                    <th class="B2" scope="col">par_19</th>
+                    <th class="B2" scope="col">par_20</th>
+                    <th class="B2" scope="col">par_21</th>
+                    <th class="B2" scope="col">par_22</th>
+                    <th class="B2" scope="col">par_23</th>
+                    <th class="B2" scope="col">par_24</th>
+                    <th class="B2" scope="col">par_25</th>
+                    <th class="B2" scope="col">par_26</th>
+                    <th class="B2" scope="col">par_27</th>
+                    <th class="B2" scope="col">par_28</th>
+                    <th class="B2" scope="col">par_29</th>
+                    <th class="B2" scope="col">par_30</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_1</th>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_2</th>
+                    <td nowrap="" x="-3,14394802479436E-38">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_3</th>
+                    <td x="2,18008408019402E-37">,000</td>
+                    <td nowrap="" x="-0,152885496540462">-,153</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_4</th>
+                    <td x="1,39885932327791E-38">,000</td>
+                    <td x="0,0895267952898494">,090</td>
+                    <td nowrap="" x="-0,000915992050856288">-,001</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_5</th>
+                    <td x="1,11417132837828E-37">,000</td>
+                    <td x="0,131191329710827">,131</td>
+                    <td x="0,119946343770192">,120</td>
+                    <td x="0,117722568183456">,118</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_6</th>
+                    <td nowrap="" x="-2,48564740273125E-38">,000</td>
+                    <td nowrap="" x="-0,0255956922002275">-,026</td>
+                    <td x="0,114180409142816">,114</td>
+                    <td nowrap="" x="-0,185795863754881">-,186</td>
+                    <td nowrap="" x="-0,068856819707186">-,069</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_7</th>
+                    <td x="2,34329885051261E-38">,000</td>
+                    <td nowrap="" x="-0,0346826256685579">-,035</td>
+                    <td x="0,124423576611449">,124</td>
+                    <td x="0,147206023293694">,147</td>
+                    <td x="0,00856979882612673">,009</td>
+                    <td x="0,171689511205285">,172</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_8</th>
+                    <td x="7,00704665030329E-16">,000</td>
+                    <td nowrap="" x="-1,86846856003727E-33">,000</td>
+                    <td nowrap="" x="-5,57688161164755E-33">,000</td>
+                    <td x="1,9817429856185E-32">,000</td>
+                    <td nowrap="" x="-3,38469026922756E-32">,000</td>
+                    <td x="5,9193054336703E-33">,000</td>
+                    <td x="1,6502036694954E-33">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_9</th>
+                    <td x="2,7217816501832E-15">,000</td>
+                    <td x="1,46506126855453E-33">,000</td>
+                    <td x="2,41278308606537E-33">,000</td>
+                    <td nowrap="" x="-1,43468692009694E-32">,000</td>
+                    <td x="2,60865639727622E-32">,000</td>
+                    <td x="2,61288038374693E-33">,000</td>
+                    <td nowrap="" x="-6,04133586293842E-34">,000</td>
+                    <td nowrap="" x="-0,710764894836519">-,711</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_10</th>
+                    <td nowrap="" x="-1,53614409125784E-30">,000</td>
+                    <td nowrap="" x="-4,18515551338456E-16">,000</td>
+                    <td nowrap="" x="-5,7273804420184E-30">,000</td>
+                    <td x="2,10716500191596E-15">,000</td>
+                    <td nowrap="" x="-4,665089070545E-15">,000</td>
+                    <td nowrap="" x="-1,5891073058543E-29">,000</td>
+                    <td x="2,06973724296973E-30">,000</td>
+                    <td x="9,61948687965675E-18">,000</td>
+                    <td nowrap="" x="-5,99584922682605E-18">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_11</th>
+                    <td x="1,1458612211476E-30">,000</td>
+                    <td x="6,65695384064471E-30">,000</td>
+                    <td nowrap="" x="-4,16221438034299E-16">,000</td>
+                    <td x="2,2502099774076E-31">,000</td>
+                    <td x="2,18135052911877E-15">,000</td>
+                    <td x="2,0886300584713E-15">,000</td>
+                    <td x="3,67297937666229E-30">,000</td>
+                    <td x="5,37534646559641E-18">,000</td>
+                    <td nowrap="" x="-1,73147972329116E-18">,000</td>
+                    <td x="0,206791527957466">,207</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_12</th>
+                    <td x="7,14626061570142E-16">,000</td>
+                    <td x="5,83777823710229E-30">,000</td>
+                    <td nowrap="" x="-1,1255171108558E-29">,000</td>
+                    <td nowrap="" x="-2,12599578872665E-30">,000</td>
+                    <td x="1,72288792130333E-29">,000</td>
+                    <td nowrap="" x="-9,29273875358543E-31">,000</td>
+                    <td x="3,95246907094556E-30">,000</td>
+                    <td nowrap="" x="-5,5255231365551E-05">,000</td>
+                    <td nowrap="" x="-1,87119768122863E-05">,000</td>
+                    <td nowrap="" x="-2,33082736527235E-15">,000</td>
+                    <td x="1,54070501352282E-15">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_13</th>
+                    <td x="5,00357216639509E-31">,000</td>
+                    <td x="1,32725685815126E-30">,000</td>
+                    <td nowrap="" x="-5,53796496427538E-30">,000</td>
+                    <td x="2,28001231508484E-15">,000</td>
+                    <td nowrap="" x="-2,84979478445391E-30">,000</td>
+                    <td nowrap="" x="-4,83319873102001E-15">,000</td>
+                    <td nowrap="" x="-4,3213572849909E-16">,000</td>
+                    <td x="4,14143810473065E-19">,000</td>
+                    <td nowrap="" x="-1,00914701171243E-18">,000</td>
+                    <td x="0,0473474060168686">,047</td>
+                    <td nowrap="" x="-0,0844218804524218">-,084</td>
+                    <td x="7,07967011238181E-16">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_14</th>
+                    <td x="1,45091388185816E-30">,000</td>
+                    <td x="2,20133908553214E-15">,000</td>
+                    <td nowrap="" x="-4,68203084396181E-15">,000</td>
+                    <td x="3,52547164030584E-30">,000</td>
+                    <td nowrap="" x="-5,51660316956061E-30">,000</td>
+                    <td x="3,04419975261384E-30">,000</td>
+                    <td x="2,10066534496042E-15">,000</td>
+                    <td nowrap="" x="-1,58872524656187E-18">,000</td>
+                    <td x="8,73100861693404E-19">,000</td>
+                    <td nowrap="" x="-0,191461647921996">-,191</td>
+                    <td nowrap="" x="-0,186976536608785">-,187</td>
+                    <td x="2,03785031477234E-15">,000</td>
+                    <td nowrap="" x="-0,0894289440746116">-,089</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_15</th>
+                    <td x="2,01772952698239E-15">,000</td>
+                    <td nowrap="" x="-3,26797892627455E-37">,000</td>
+                    <td x="2,19069100029142E-36">,000</td>
+                    <td nowrap="" x="-6,04627147646205E-38">,000</td>
+                    <td nowrap="" x="-9,72019945498767E-36">,000</td>
+                    <td nowrap="" x="-1,58312658941452E-36">,000</td>
+                    <td x="8,29877456026096E-37">,000</td>
+                    <td nowrap="" x="-7,44855981005695E-17">,000</td>
+                    <td nowrap="" x="-5,07445234467525E-21">,000</td>
+                    <td x="2,97567340450184E-29">,000</td>
+                    <td x="7,91938921493885E-31">,000</td>
+                    <td x="2,71187400915423E-16">,000</td>
+                    <td nowrap="" x="-7,6321366047718E-31">,000</td>
+                    <td nowrap="" x="-1,62529258031557E-30">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_16</th>
+                    <td x="2,33747650740591E-15">,000</td>
+                    <td nowrap="" x="-4,66141227417337E-37">,000</td>
+                    <td x="2,36835622995103E-36">,000</td>
+                    <td nowrap="" x="-4,26372652583601E-39">,000</td>
+                    <td nowrap="" x="-8,64648077008968E-36">,000</td>
+                    <td nowrap="" x="-1,57834343445371E-36">,000</td>
+                    <td x="5,94255784635145E-37">,000</td>
+                    <td nowrap="" x="-1,26742581245661E-20">,000</td>
+                    <td nowrap="" x="-7,44749057685872E-17">,000</td>
+                    <td x="2,00534291113445E-29">,000</td>
+                    <td nowrap="" x="-1,12029979318693E-29">,000</td>
+                    <td x="2,29376618425005E-16">,000</td>
+                    <td nowrap="" x="-2,95324625659661E-30">,000</td>
+                    <td x="2,10071434519804E-30">,000</td>
+                    <td x="0,710764897079912">,711</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_17</th>
+                    <td x="2,68284272940165E-37">,000</td>
+                    <td nowrap="" x="-2,9746425807324E-16">,000</td>
+                    <td nowrap="" x="-5,15880024233719E-16">,000</td>
+                    <td x="3,07082737854031E-17">,000</td>
+                    <td nowrap="" x="-1,33116913489557E-16">,000</td>
+                    <td x="1,26521131183654E-17">,000</td>
+                    <td x="4,17375524373902E-16">,000</td>
+                    <td nowrap="" x="-2,5741526842833E-33">,000</td>
+                    <td x="2,45620387034914E-33">,000</td>
+                    <td x="3,52660220791244E-30">,000</td>
+                    <td x="5,69125100131791E-30">,000</td>
+                    <td x="5,47103568296102E-30">,000</td>
+                    <td x="2,2629913478241E-30">,000</td>
+                    <td x="2,17650980420684E-15">,000</td>
+                    <td nowrap="" x="-2,86025118921393E-19">,000</td>
+                    <td nowrap="" x="-2,41765190043627E-19">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_18</th>
+                    <td nowrap="" x="-3,63989859154089E-37">,000</td>
+                    <td nowrap="" x="-3,74958027631814E-17">,000</td>
+                    <td nowrap="" x="-3,88557667759992E-17">,000</td>
+                    <td nowrap="" x="-3,40461103977702E-16">,000</td>
+                    <td nowrap="" x="-7,98815667568201E-18">,000</td>
+                    <td nowrap="" x="-4,95333463209344E-16">,000</td>
+                    <td x="1,66583169041763E-16">,000</td>
+                    <td nowrap="" x="-5,92802953284726E-34">,000</td>
+                    <td x="2,04590562623101E-34">,000</td>
+                    <td x="5,59183069532603E-30">,000</td>
+                    <td x="3,50198991239046E-30">,000</td>
+                    <td x="4,56000021979873E-30">,000</td>
+                    <td x="2,23116541133487E-15">,000</td>
+                    <td x="1,17764781195707E-30">,000</td>
+                    <td nowrap="" x="-2,48933076268057E-19">,000</td>
+                    <td nowrap="" x="-2,10574316494579E-19">,000</td>
+                    <td x="0,098384666571986">,098</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_19</th>
+                    <td x="5,59721274394647E-37">,000</td>
+                    <td x="7,74154080370444E-17">,000</td>
+                    <td nowrap="" x="-1,049155453021E-16">,000</td>
+                    <td x="4,22447833443328E-16">,000</td>
+                    <td nowrap="" x="-4,77385551969103E-16">,000</td>
+                    <td nowrap="" x="-4,62631758668121E-17">,000</td>
+                    <td x="5,55952769493926E-17">,000</td>
+                    <td x="1,40369925467462E-32">,000</td>
+                    <td nowrap="" x="-9,34998812505675E-33">,000</td>
+                    <td x="2,17550225475927E-15">,000</td>
+                    <td nowrap="" x="-7,9563357745652E-30">,000</td>
+                    <td nowrap="" x="-5,89444245969487E-30">,000</td>
+                    <td x="3,69959830564217E-30">,000</td>
+                    <td x="3,29243051028248E-30">,000</td>
+                    <td x="4,35210246336376E-19">,000</td>
+                    <td x="3,68069313962567E-19">,000</td>
+                    <td x="0,153053991865482">,153</td>
+                    <td nowrap="" x="-0,0503140711100595">-,050</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_20</th>
+                    <td nowrap="" x="-2,05309751232623E-36">,000</td>
+                    <td nowrap="" x="-7,43892854570333E-17">,000</td>
+                    <td x="3,84535756263033E-17">,000</td>
+                    <td nowrap="" x="-1,09205706320854E-16">,000</td>
+                    <td nowrap="" x="-2,18175336587179E-16">,000</td>
+                    <td x="3,44624934895805E-16">,000</td>
+                    <td x="7,98977848808845E-17">,000</td>
+                    <td x="9,70389671062926E-33">,000</td>
+                    <td nowrap="" x="-2,04564371059818E-33">,000</td>
+                    <td x="9,13291870006296E-31">,000</td>
+                    <td x="2,16678873827174E-15">,000</td>
+                    <td x="1,00897418680002E-29">,000</td>
+                    <td x="7,36520056182542E-30">,000</td>
+                    <td x="5,19787773931767E-30">,000</td>
+                    <td nowrap="" x="-2,14029940969694E-18">,000</td>
+                    <td nowrap="" x="-1,80998843632202E-18">,000</td>
+                    <td x="0,162684100216236">,163</td>
+                    <td x="0,110662336823246">,111</td>
+                    <td nowrap="" x="-0,181598629254868">-,182</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_21</th>
+                    <td nowrap="" x="-2,62095774034686E-16">,000</td>
+                    <td nowrap="" x="-1,85351221743167E-16">,000</td>
+                    <td x="1,14091157407413E-15">,000</td>
+                    <td nowrap="" x="-1,75112980304618E-15">,000</td>
+                    <td x="1,0810092809872E-15">,000</td>
+                    <td nowrap="" x="-3,48679890700035E-17">,000</td>
+                    <td nowrap="" x="-2,725366898018E-16">,000</td>
+                    <td x="2,02653715180693E-05">,000</td>
+                    <td x="6,86279203918622E-06">,000</td>
+                    <td nowrap="" x="-0,646867646712741">-,647</td>
+                    <td nowrap="" x="-0,702044763032628">-,702</td>
+                    <td nowrap="" x="-0,36675932789076">-,367</td>
+                    <td nowrap="" x="-0,227239155761574">-,227</td>
+                    <td x="0,0623484832883809">,062</td>
+                    <td x="1,00484476968272E-15">,000</td>
+                    <td nowrap="" x="-1,88598767848189E-16">,000</td>
+                    <td nowrap="" x="-4,5469407750631E-16">,000</td>
+                    <td nowrap="" x="-3,61008689623552E-16">,000</td>
+                    <td nowrap="" x="-9,01972652758211E-16">,000</td>
+                    <td nowrap="" x="-1,96589483174402E-15">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_22</th>
+                    <td nowrap="" x="-1,83012712981025E-15">,000</td>
+                    <td x="1,81597873015844E-33">,000</td>
+                    <td x="5,86357395368093E-33">,000</td>
+                    <td nowrap="" x="-1,91771423479709E-32">,000</td>
+                    <td x="3,24634756730761E-32">,000</td>
+                    <td nowrap="" x="-8,18637928684023E-33">,000</td>
+                    <td nowrap="" x="-1,7856096819001E-33">,000</td>
+                    <td nowrap="" x="-0,962972410651566">-,963</td>
+                    <td x="0,506893048000492">,507</td>
+                    <td nowrap="" x="-9,60822916615839E-18">,000</td>
+                    <td nowrap="" x="-6,07022975068791E-18">,000</td>
+                    <td x="7,40161952026139E-05">,000</td>
+                    <td nowrap="" x="-6,11840124147904E-20">,000</td>
+                    <td x="1,61106666314777E-18">,000</td>
+                    <td x="5,39641888702842E-16">,000</td>
+                    <td x="1,42577831076783E-16">,000</td>
+                    <td x="1,45857606408783E-19">,000</td>
+                    <td x="6,40578873510365E-20">,000</td>
+                    <td nowrap="" x="-5,74269946390151E-20">,000</td>
+                    <td x="3,12398437585332E-19">,000</td>
+                    <td nowrap="" x="-3,58809671031543E-05">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_23</th>
+                    <td x="0,819305324111674">,819</td>
+                    <td nowrap="" x="-2,46493633161332E-38">,000</td>
+                    <td x="1,65423308434514E-37">,000</td>
+                    <td x="9,28539844517573E-39">,000</td>
+                    <td x="7,73196524613897E-38">,000</td>
+                    <td nowrap="" x="-1,58157676373594E-38">,000</td>
+                    <td x="1,8239474979853E-38">,000</td>
+                    <td x="7,2977637037287E-21">,000</td>
+                    <td x="1,21582356025242E-15">,000</td>
+                    <td x="4,01135600081008E-31">,000</td>
+                    <td nowrap="" x="-2,05724684401963E-31">,000</td>
+                    <td nowrap="" x="-1,3207371513949E-16">,000</td>
+                    <td nowrap="" x="-9,60845309005435E-32">,000</td>
+                    <td nowrap="" x="-2,73957947763634E-31">,000</td>
+                    <td x="8,88078207294729E-16">,000</td>
+                    <td x="1,24946829949437E-15">,000</td>
+                    <td x="3,7515614185389E-37">,000</td>
+                    <td nowrap="" x="-1,11355406653586E-36">,000</td>
+                    <td x="1,93752348431421E-36">,000</td>
+                    <td nowrap="" x="-7,6373334832292E-36">,000</td>
+                    <td x="4,84392669965951E-17">,000</td>
+                    <td nowrap="" x="-4,36283084376319E-16">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_24</th>
+                    <td x="0,819305324111673">,819</td>
+                    <td nowrap="" x="-2,82358598235102E-38">,000</td>
+                    <td x="2,09370195185423E-37">,000</td>
+                    <td x="1,68599302257126E-38">,000</td>
+                    <td x="1,26275267332139E-37">,000</td>
+                    <td nowrap="" x="-3,21638186991877E-38">,000</td>
+                    <td x="2,13813403918206E-38">,000</td>
+                    <td x="4,72233961838152E-15">,000</td>
+                    <td nowrap="" x="-3,08846395975188E-20">,000</td>
+                    <td nowrap="" x="-3,66146363527154E-30">,000</td>
+                    <td x="2,63603717464065E-30">,000</td>
+                    <td x="1,65052787935883E-15">,000</td>
+                    <td x="1,16209243226461E-30">,000</td>
+                    <td x="3,35359144116933E-30">,000</td>
+                    <td x="3,1675435501116E-15">,000</td>
+                    <td x="2,25137876539121E-15">,000</td>
+                    <td nowrap="" x="-4,57152808678959E-37">,000</td>
+                    <td x="8,72440092238918E-37">,000</td>
+                    <td nowrap="" x="-1,43551785253806E-36">,000</td>
+                    <td x="5,48683060340913E-36">,000</td>
+                    <td nowrap="" x="-6,05346495698607E-16">,000</td>
+                    <td nowrap="" x="-5,75187559815156E-15">,000</td>
+                    <td x="0,505186738921018">,505</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_25</th>
+                    <td nowrap="" x="-1,75368634593644E-20">,000</td>
+                    <td nowrap="" x="-1,39052615600691E-34">,000</td>
+                    <td x="2,78141364687669E-34">,000</td>
+                    <td x="5,99004291585038E-35">,000</td>
+                    <td nowrap="" x="-4,02582477052348E-34">,000</td>
+                    <td x="2,36547764196151E-35">,000</td>
+                    <td nowrap="" x="-9,37276286290109E-35">,000</td>
+                    <td x="1,35596653359679E-09">,000</td>
+                    <td x="4,59186012325739E-10">,000</td>
+                    <td x="5,83602842434937E-20">,000</td>
+                    <td nowrap="" x="-5,49412720845488E-20">,000</td>
+                    <td nowrap="" x="-2,45399159212236E-05">,000</td>
+                    <td nowrap="" x="-1,73665729170597E-20">,000</td>
+                    <td nowrap="" x="-5,06545573904217E-20">,000</td>
+                    <td nowrap="" x="-6,65491601807112E-21">,000</td>
+                    <td nowrap="" x="-5,6288829306278E-21">,000</td>
+                    <td nowrap="" x="-1,3254735568019E-34">,000</td>
+                    <td nowrap="" x="-1,11048183887401E-34">,000</td>
+                    <td x="1,44959345877729E-34">,000</td>
+                    <td nowrap="" x="-2,35790301344509E-34">,000</td>
+                    <td x="9,00024306976375E-06">,000</td>
+                    <td nowrap="" x="-1,8163591720078E-09">,000</td>
+                    <td x="3,24107786641729E-21">,000</td>
+                    <td nowrap="" x="-4,0503815362558E-20">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_26</th>
+                    <td nowrap="" x="-2,65633005572451E-38">,000</td>
+                    <td x="0,213959481537956">,214</td>
+                    <td nowrap="" x="-0,03879715822674">-,039</td>
+                    <td nowrap="" x="-0,0710649479355423">-,071</td>
+                    <td nowrap="" x="-0,252686485315431">-,253</td>
+                    <td x="0,0128432209982997">,013</td>
+                    <td nowrap="" x="-0,0108382044612792">-,011</td>
+                    <td x="2,82790145478138E-32">,000</td>
+                    <td nowrap="" x="-1,86036827114672E-32">,000</td>
+                    <td x="3,14795832750419E-15">,000</td>
+                    <td nowrap="" x="-1,12090030489251E-29">,000</td>
+                    <td nowrap="" x="-7,19527148678284E-30">,000</td>
+                    <td x="6,0763228035899E-30">,000</td>
+                    <td x="5,49396848514985E-30">,000</td>
+                    <td x="2,38293096532831E-36">,000</td>
+                    <td x="2,07732888284916E-36">,000</td>
+                    <td nowrap="" x="-6,93554475426226E-17">,000</td>
+                    <td x="2,27995028224841E-17">,000</td>
+                    <td nowrap="" x="-4,53143669742235E-16">,000</td>
+                    <td x="8,22902692807105E-17">,000</td>
+                    <td nowrap="" x="-1,68504722736036E-15">,000</td>
+                    <td nowrap="" x="-2,81031230490361E-32">,000</td>
+                    <td nowrap="" x="-1,82745146412784E-38">,000</td>
+                    <td nowrap="" x="-3,03531297643787E-38">,000</td>
+                    <td x="1,75459813447768E-34">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_27</th>
+                    <td x="3,88526558389375E-38">,000</td>
+                    <td x="0,213959481537957">,214</td>
+                    <td x="0,227084660368886">,227</td>
+                    <td x="0,0212685587976402">,021</td>
+                    <td x="0,0346464880981947">,035</td>
+                    <td x="0,0224980282707655">,022</td>
+                    <td x="0,138468388360358">,138</td>
+                    <td nowrap="" x="-5,15743706287497E-34">,000</td>
+                    <td x="2,73394769307417E-34">,000</td>
+                    <td nowrap="" x="-8,03997589585952E-31">,000</td>
+                    <td nowrap="" x="-1,48536209124906E-30">,000</td>
+                    <td nowrap="" x="-1,30783028319737E-30">,000</td>
+                    <td nowrap="" x="-4,98422131662698E-31">,000</td>
+                    <td nowrap="" x="-5,99039982800338E-16">,000</td>
+                    <td nowrap="" x="-3,90560138359875E-37">,000</td>
+                    <td nowrap="" x="-2,07011275369814E-37">,000</td>
+                    <td x="1,80112280068063E-16">,000</td>
+                    <td x="1,77202866200165E-17">,000</td>
+                    <td x="2,75669034484107E-17">,000</td>
+                    <td x="2,93014042207674E-17">,000</td>
+                    <td x="1,1140136272226E-16">,000</td>
+                    <td x="5,2347169016716E-34">,000</td>
+                    <td x="2,98517124124839E-38">,000</td>
+                    <td x="3,65012022174138E-38">,000</td>
+                    <td x="3,30433050204876E-35">,000</td>
+                    <td x="0,023425524425959">,023</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_28</th>
+                    <td nowrap="" x="-1,1790587407437E-37">,000</td>
+                    <td nowrap="" x="-0,0412994769500444">-,041</td>
+                    <td x="0,227084660368886">,227</td>
+                    <td nowrap="" x="-0,0283843129098059">-,028</td>
+                    <td nowrap="" x="-0,252686485315431">-,253</td>
+                    <td x="0,155550627442073">,156</td>
+                    <td x="0,0253377569445715">,025</td>
+                    <td nowrap="" x="-2,48056857641847E-32">,000</td>
+                    <td x="4,45035887245011E-33">,000</td>
+                    <td x="1,0697146363015E-29">,000</td>
+                    <td nowrap="" x="-6,67847829853999E-15">,000</td>
+                    <td nowrap="" x="-1,72364500612279E-29">,000</td>
+                    <td nowrap="" x="-1,80745412105451E-29">,000</td>
+                    <td nowrap="" x="-8,365678181216E-30">,000</td>
+                    <td x="1,85882401414424E-35">,000</td>
+                    <td x="1,67114410599014E-35">,000</td>
+                    <td nowrap="" x="-1,25015776933946E-16">,000</td>
+                    <td nowrap="" x="-8,50392754847926E-17">,000</td>
+                    <td x="1,39550783981109E-16">,000</td>
+                    <td nowrap="" x="-7,6845725407571E-16">,000</td>
+                    <td x="4,33566452241056E-15">,000</td>
+                    <td x="2,83660343685948E-32">,000</td>
+                    <td nowrap="" x="-8,70317339010562E-38">,000</td>
+                    <td nowrap="" x="-1,24773514057665E-37">,000</td>
+                    <td x="3,96094837458115E-34">,000</td>
+                    <td x="0,0329780621472471">,033</td>
+                    <td x="0,0264661164631662">,026</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_29</th>
+                    <td nowrap="" x="-3,06645792969347E-39">,000</td>
+                    <td nowrap="" x="-0,00691996269329194">-,007</td>
+                    <td x="0,0151974227266844">,015</td>
+                    <td nowrap="" x="-0,0710649479355423">-,071</td>
+                    <td nowrap="" x="-0,00774744933378358">-,008</td>
+                    <td x="0,155550627442073">,156</td>
+                    <td x="0,138468388360358">,138</td>
+                    <td x="1,15544811322731E-33">,000</td>
+                    <td nowrap="" x="-2,51976533068148E-33">,000</td>
+                    <td x="7,71828269959479E-30">,000</td>
+                    <td x="1,1264424583528E-29">,000</td>
+                    <td x="3,6808792057997E-30">,000</td>
+                    <td x="3,0600941458647E-15">,000</td>
+                    <td nowrap="" x="-2,54527222889914E-31">,000</td>
+                    <td nowrap="" x="-8,2813477829721E-37">,000</td>
+                    <td nowrap="" x="-6,82703526434126E-37">,000</td>
+                    <td x="5,66093245775597E-17">,000</td>
+                    <td x="5,7538767523433E-16">,000</td>
+                    <td nowrap="" x="-2,89500964075919E-17">,000</td>
+                    <td x="6,36737447207257E-17">,000</td>
+                    <td nowrap="" x="-8,3642269580717E-16">,000</td>
+                    <td nowrap="" x="-4,39630113082984E-34">,000</td>
+                    <td nowrap="" x="-1,85289009242654E-39">,000</td>
+                    <td nowrap="" x="-4,1694472968411E-39">,000</td>
+                    <td nowrap="" x="-9,08757418764504E-35">,000</td>
+                    <td x="0,00253150575166813">,003</td>
+                    <td x="0,00967954261648086">,010</td>
+                    <td x="0,0122461527911814">,012</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                  <tr align="right" RowID="">
+                    <th align="left" class="B3" scope="row">par_30</th>
+                    <td nowrap="" x="-7,95316393875164E-19">,000</td>
+                    <td nowrap="" x="-1,42205571612518E-30">,000</td>
+                    <td x="3,02337864948454E-30">,000</td>
+                    <td x="7,12967173803837E-30">,000</td>
+                    <td nowrap="" x="-1,5798375531301E-29">,000</td>
+                    <td nowrap="" x="-1,51076116662488E-29">,000</td>
+                    <td nowrap="" x="-1,3553005767672E-30">,000</td>
+                    <td x="6,14942467508153E-08">,000</td>
+                    <td x="2,08247959488246E-08">,000</td>
+                    <td x="2,16029633824836E-15">,000</td>
+                    <td nowrap="" x="-6,67974569558085E-15">,000</td>
+                    <td nowrap="" x="-0,00111291266391545">-,001</td>
+                    <td x="3,95353497357872E-15">,000</td>
+                    <td nowrap="" x="-2,19946371227606E-16">,000</td>
+                    <td nowrap="" x="-3,01807892773093E-19">,000</td>
+                    <td nowrap="" x="-2,55276143451291E-19">,000</td>
+                    <td nowrap="" x="-1,40573152187956E-30">,000</td>
+                    <td x="6,96953402705215E-30">,000</td>
+                    <td x="7,36503340869213E-30">,000</td>
+                    <td nowrap="" x="-1,56851560783801E-29">,000</td>
+                    <td x="0,00040817110062125">,000</td>
+                    <td nowrap="" x="-8,2373560991509E-08">,000</td>
+                    <td x="1,46986510148258E-19">,000</td>
+                    <td nowrap="" x="-1,83689337917816E-18">,000</td>
+                    <td nowrap="" x="-0,000117886004559258">,000</td>
+                    <td x="5,33171836536543E-30">,000</td>
+                    <td x="1,94068025450043E-31">,000</td>
+                    <td x="2,41743515693715E-29">,000</td>
+                    <td x="4,77871686104955E-30">,000</td>
+                    <td x="1">1,000</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div ntype="modelfit" nodecaption="Model Fit" caption="Model Fit Summary">
+        <div>
+          <h2 tabindex="1">Model Fit Summary</h2>
+        </div>
+        <div nodecaption="CMIN" tabindex="1">
+          <h2 tabindex="1">CMIN</h2>
+          <table summary="CMIN" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7904" class="B2" scope="col">NPAR</th>
+                <th h="7901" class="B2" scope="col">CMIN</th>
+                <th h="7902" class="B2" scope="col">DF</th>
+                <th h="7903" class="B2" scope="col">P</th>
+                <th h="7905" class="B2" scope="col">CMIN/DF</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7804">30</td>
+                <td h="7801" x="30,7860101049405">30,786</td>
+                <td h="7802">14</td>
+                <td h="7803" x="0,00593865136915063">,006</td>
+                <td h="7805" x="2,19900072178146">2,199</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7804">44</td>
+                <td h="7801" x="0">,000</td>
+                <td h="7802">0</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7804">8</td>
+                <td h="7801" x="452,924819355431">452,925</td>
+                <td h="7802">36</td>
+                <td h="7803" x="1,46627087479291E-73">,000</td>
+                <td h="7805" x="12,5812449820953">12,581</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="Baseline Comparisons" tabindex="1">
+          <h2 tabindex="1">Baseline Comparisons</h2>
+          <table summary="Baseline Comparisons" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7912" scope="col" class="B2">NFI<br />Delta1</th>
+                <th h="7913" scope="col" class="B2">RFI<br />rho1</th>
+                <th h="7914" scope="col" class="B2">IFI<br />Delta2</th>
+                <th h="7915" scope="col" class="B2">TLI<br />rho2</th>
+                <th h="7916" class="B2" scope="col">CFI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7812" x="0,932028432116498">,932</td>
+                <td h="7813" x="0,825215968299567">,825</td>
+                <td h="7814" x="0,961756525571757">,962</td>
+                <td h="7815" x="0,896470481054919">,896</td>
+                <td h="7816" x="0,959738520410246">,960</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7812" x="1">1,000</td>
+                <td>
+                </td>
+                <td h="7814" x="1">1,000</td>
+                <td>
+                </td>
+                <td h="7816" x="1">1,000</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7812" x="0">,000</td>
+                <td h="7813" x="0">,000</td>
+                <td h="7814" x="0">,000</td>
+                <td h="7815" x="0">,000</td>
+                <td h="7816" x="0">,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="Parsimony-Adjusted Measures" tabindex="1">
+          <h2 tabindex="1">Parsimony-Adjusted Measures</h2>
+          <table summary="Parsimony-Adjusted Measures" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7918" class="B2" scope="col">PRATIO</th>
+                <th h="7919" class="B2" scope="col">PNFI</th>
+                <th h="7920" class="B2" scope="col">PCFI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7818" x="0,388888888888889">,389</td>
+                <td h="7819" x="0,362455501378638">,362</td>
+                <td h="7820" x="0,373231646826207">,373</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7818" x="0">,000</td>
+                <td h="7819" x="0">,000</td>
+                <td h="7820" x="0">,000</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7818" x="1">1,000</td>
+                <td h="7819" x="0">,000</td>
+                <td h="7820" x="0">,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="NCP" tabindex="1">
+          <h2 tabindex="1">NCP</h2>
+          <table summary="NCP" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7922" class="B2" scope="col">NCP</th>
+                <th h="7923" class="B2" scope="col">LO 90</th>
+                <th h="7924" class="B2" scope="col">HI 90</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7822" x="16,7860101049405">16,786</td>
+                <td h="7823" x="4,45699310302734">4,457</td>
+                <td h="7824" x="36,8324966430664">36,832</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7822" x="0">,000</td>
+                <td h="7823" x="0">,000</td>
+                <td h="7824" x="0">,000</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7822" x="416,924819355431">416,925</td>
+                <td h="7823" x="351,999671936035">352,000</td>
+                <td h="7824" x="489,297294616699">489,297</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="FMIN" tabindex="1">
+          <h2 tabindex="1">FMIN</h2>
+          <table summary="FMIN" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7925" class="B2" scope="col">FMIN</th>
+                <th h="7926" class="B2" scope="col">F0</th>
+                <th h="7927" class="B2" scope="col">LO 90</th>
+                <th h="7928" class="B2" scope="col">HI 90</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7825" x="0,171033389471892">,171</td>
+                <td h="7826" x="0,0932556116941138">,093</td>
+                <td h="7827" x="0,0247610727945964">,025</td>
+                <td h="7828" x="0,204624981350369">,205</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7825" x="0">,000</td>
+                <td h="7826" x="0">,000</td>
+                <td h="7827" x="0">,000</td>
+                <td h="7828" x="0">,000</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7825" x="2,51624899641906">2,516</td>
+                <td h="7826" x="2,31624899641906">2,316</td>
+                <td h="7827" x="1,95555373297797">1,956</td>
+                <td h="7828" x="2,71831830342611">2,718</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="RMSEA" tabindex="1">
+          <h2 tabindex="1">RMSEA</h2>
+          <table summary="RMSEA" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7929" class="B2" scope="col">RMSEA</th>
+                <th h="7930" class="B2" scope="col">LO 90</th>
+                <th h="7931" class="B2" scope="col">HI 90</th>
+                <th h="7932" class="B2" scope="col">PCLOSE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7829" x="0,0816156548770402">,082</td>
+                <td h="7830" x="0,0420552976063288">,042</td>
+                <td h="7831" x="0,120896939979699">,121</td>
+                <td h="7832" x="0,0866532562874531">,087</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7829" x="0,253653799302375">,254</td>
+                <td h="7830" x="0,233068524316704">,233</td>
+                <td h="7831" x="0,274788722042656">,275</td>
+                <td h="7832" x="4,56724698250088E-06">,000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="AIC" tabindex="1">
+          <h2 tabindex="1">AIC</h2>
+          <table summary="AIC" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7934" class="B2" scope="col">AIC</th>
+                <th h="7935" class="B2" scope="col">BCC</th>
+                <th h="7936" class="B2" scope="col">BIC</th>
+                <th h="7937" class="B2" scope="col">CAIC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7834" x="90,7860101049405">90,786</td>
+                <td h="7835" x="93,9439048417826">93,944</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7834" x="88">88,000</td>
+                <td h="7835" x="92,6315789473684">92,632</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7834" x="468,924819355431">468,925</td>
+                <td h="7835" x="469,766924618589">469,767</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="ECVI" tabindex="1">
+          <h2 tabindex="1">ECVI</h2>
+          <table summary="ECVI" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7938" class="B2" scope="col">ECVI</th>
+                <th h="7939" class="B2" scope="col">LO 90</th>
+                <th h="7940" class="B2" scope="col">HI 90</th>
+                <th h="7941" class="B2" scope="col">MECVI</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7838" x="0,504366722805225">,504</td>
+                <td h="7839" x="0,435872183905707">,436</td>
+                <td h="7840" x="0,61573609246148">,616</td>
+                <td h="7841" x="0,521910582454348">,522</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Saturated model</th>
+                <td h="7838" x="0,488888888888889">,489</td>
+                <td h="7839" x="0,488888888888889">,489</td>
+                <td h="7840" x="0,488888888888889">,489</td>
+                <td h="7841" x="0,514619883040936">,515</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7838" x="2,60513788530795">2,605</td>
+                <td h="7839" x="2,24444262186686">2,244</td>
+                <td h="7840" x="3,007207192315">3,007</td>
+                <td h="7841" x="2,60981624788105">2,610</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div nodecaption="HOELTER" tabindex="1">
+          <h2 tabindex="1">HOELTER</h2>
+          <table summary="HOELTER" tabindex="1">
+            <colgroup>
+              <col />
+              <col />
+              <col />
+            </colgroup>
+            <thead>
+              <tr align="right" RowID="">
+                <th align="left" class="B1" scope="col">Model</th>
+                <th h="7943" scope="col" class="B2">HOELTER<br />.05</th>
+                <th h="7944" scope="col" class="B2">HOELTER<br />.01</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Default model</th>
+                <td h="7843">139</td>
+                <td h="7844">171</td>
+              </tr>
+              <tr align="right" RowID="">
+                <th align="left" class="B3" scope="row">Independence model</th>
+                <td h="7843">21</td>
+                <td h="7844">24</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div nodecaption="Execution Time" tabindex="1" ntype="executiontime">
+        <h2 tabindex="1" h="884">Execution time summary</h2>
+        <table summary="Execution time summary" tabindex="1" class="PLAINTABLE">
+          <colgroup>
+            <col />
+            <col />
+          </colgroup>
+          <tbody>
+            <tr align="right" RowID="">
+              <th scope="row" align="left">Minimization:</th>
+              <td x="0,221999999999994">,222</td>
+            </tr>
+            <tr align="right" RowID="">
+              <th scope="row" align="left">Miscellaneous:</th>
+              <td x="1,241">1,241</td>
+            </tr>
+            <tr align="right" RowID="">
+              <th scope="row" align="left">Bootstrap:</th>
+              <td x="0">,000</td>
+            </tr>
+            <tr align="right" RowID="">
+              <th scope="row" align="left">Total:</th>
+              <td x="1,46299999999999">1,463</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <span vlc="variablelabels">
+        <span vlc="groupvariablelabels" groupname="Group number 1">
+          <varlab vname="selfefficacy" vlabel="self-efficacy" />
+          <varlab vname="academicperformance" vlabel="academic performance" />
+          <varlab vname="timespentonsocialmediadaily" vlabel="time spent on social media daily" />
+          <varlab vname="availabilityofdigitalresources" vlabel="availability of digital resources" />
+          <varlab vname="currentGPA" vlabel="current GPA" />
+          <varlab vname="Academicyear" vlabel="Academic year" />
+          <varlab vname="Age" vlabel="Age" />
+          <varlab vname="selfregulation" vlabel="self regulation" />
+        </span>
+      </span>
+    </div>
+  </body>
+</html>
